@@ -1,0 +1,33 @@
+<!--- regular expressions to validate CPF and CNPJ (Brazilian documents) --->
+<!--- NOTE: CPF and CNPJ are identification documents used in Brazil and the regular expressions provided here are useful to verify the entry of a non-standard user 
+of the CPF or CNPJ. --->
+
+
+[ 1 ] Regular expressions for CPF and CNPJ with numbers and separators (period, hyphen and slash)
+<!--- CPF --->
+regex = ^\d{3}\.\d{3}\.\d{3}\-\d{2}$
+input = 825.332.050-79
+
+<!--- CNPJ --->
+regex = ^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$
+input = 98.976.100/0001-52
+
+<!--- CPF e CNPJ --->
+regex = (^\d{3}\.\d{3}\.\d{3}\-\d{2}$)|(^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$)
+input = 825.332.050-79
+input = 98.976.100/0001-52
+
+
+[ 2 ] Regular expressions for CPF and CNPJ only with numbers and without separators (period, hyphen and slash)
+<!--- CPF --->
+regex = ^\d{11}$
+input = 82533205079
+
+<!--- CNPJ --->
+regex = ^\d{14}$
+input = 98976100000152
+
+<!--- CPF e CNPJ --->
+regex = (^\d{11}$)|(^\d{14}$)
+input = 82533205079
+input = 98976100000152
