@@ -1,6 +1,7 @@
+/*** Architecture: Bot Router + Main Bot + Subbots (optional) ***/
+
 /* [ ! ] Attention¹: This script identifies each channel (eg Blip Chat, WhatsApp, Messenger, Telegram, etc.) 
-the user / client is talking to his Smart Contact (Chatbot). For more information, read the documentation 
-suggested in the comments of this script below. /*
+the user / client is talking to his Smart Contact (Chatbot).
 
 /* [ ! ] Attention²: To configure this script, the following steps are required:
 (0) activate the "Use Router Context" functionality,
