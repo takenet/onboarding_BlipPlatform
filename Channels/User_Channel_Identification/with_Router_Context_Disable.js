@@ -14,9 +14,9 @@ suggested in the comments of this script below. /*
 /* [ ! ] API Reference: https://docs.blip.ai/#channels */
 
 function run(tunnelOriginator) {
-    contactDomain = tunnelOriginator.split("@")[1];
-    
     var channel;
+    
+    contactDomain = tunnelOriginator.split("@")[1];
     
     switch (contactDomain) {
         case 'wa.gw.msging.net':
