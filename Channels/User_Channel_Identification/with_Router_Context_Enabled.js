@@ -12,30 +12,41 @@ the user / client is talking to his Smart Contact (Chatbot).
 
 /* [ ! ] API Reference: https://docs.blip.ai/#channels */
 
-function run(contactIdentity) {
+function run(contactIdentity) { 
+    var channel;
+    
     contactDomain = contactIdentity.split("@")[1];
-    let channel;
+
     switch (contactDomain) {
         case 'wa.gw.msging.net':
             channel = "Whatsapp";
+            return channel;
         case '0mn.io':
             channel = "Blip Chat";
+            return channel;
         case 'messenger.gw.msging.net':
             channel = "Messenger";
+            return channel;
         case 'businessmessages.gw.msging.net':
             channel = "GBM";
+            return channel;
         case 'skype.gw.msging.net':
             channel = "Skype";
+            return channel;
         case 'telegram.gw.msging.net':
             channel = "Telegram";
+            return channel;
         case 'workplace.gw.msging.net':
             channel = 'Workplace';
+            return channel;
         case 'mailgun.gw.msging.net':
             channel = "Email";
+            return channel;
         case 'take.io':
-            channel = "SMS";         
+            channel = "SMS";
+            return channel;
         default:
             channel = "Other";
+            return channel;
     }
-    return channel;
 }
