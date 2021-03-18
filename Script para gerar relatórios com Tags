@@ -1,0 +1,5 @@
+function run(ticket){
+    var tags = JSON.parse(ticket).tags;
+
+    return tags[0];
+}
