@@ -4,7 +4,7 @@ only through HTTP Request to an API (free or paid). We do not provide an API for
 
 /* [ ! ] Attention²: To use this script, the CPF and CNPJ must be entered with standard CPF or CNPJ numbers and septers.
 Change if necessary and be careful about changes.
-Examples: CPF --> 825.332.050-79 | CNPH --> 98.976.100/0001-52 */
+Examples: CPF --> 825.332.050-79 | CNPJ --> 98.976.100/0001-52 */
 
 function run(input_user) {
     
