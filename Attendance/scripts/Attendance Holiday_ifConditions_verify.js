@@ -16,7 +16,6 @@ no prerequisites required
    To learn more about the "toLocaleString" 
    function: https://reference.codeproject.com/book/javascript/reference/global_objects/number/tolocalestring#:~:text=prototype.-,toLocaleString(),the%20behavior%20of % 20the% 20function.
 6. customize municipal, state and national holidays, when applicable. 
-   The matrix has columns that represent the calendar days and the rows are the months
 */
 
 function run() {
