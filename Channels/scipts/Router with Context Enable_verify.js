@@ -17,7 +17,6 @@ function run(contactIdentity) {
     contactDomain = contactIdentity.split("@")[1];
 
     switch (contactDomain) {
-        
         case '0mn.io':
             channel = "Blip Chat";
             return channel;
@@ -39,7 +38,7 @@ function run(contactIdentity) {
             return channel;
 
         case 'wa.gw.msging.net':
-            channel = "Whatsapp";
+            channel = "WhatsApp";
             return channel;
 
         case 'abs.gw.msging.net':
