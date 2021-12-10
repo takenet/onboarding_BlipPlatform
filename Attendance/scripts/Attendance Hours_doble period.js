@@ -6,7 +6,6 @@ the Take Blip platform
 /* # Prerequisites #
 no prerequisites required
 /*
-
 /* # How to implement #
 1. configure on the Blip platform, in the content block, an Action called "Execute a script"
 2. no input variables
@@ -21,7 +20,7 @@ function run() {
         {
             "num": 0,
             "name": "Sunday",
-            "portugueseName": "Domingo",    /*optional line*/
+            "portugueseName": "Domingo",    //optional line
             "workTime": [
             {
                 "start": "08:00",
@@ -36,7 +35,7 @@ function run() {
         {
             "num": 1,
             "name": "Monday",
-            "portugueseName": "Segunda-feira",  /*optional line*/
+            "portugueseName": "Segunda-feira",  //optional line
             "workTime": [
             {
                 "start": "8:00",
@@ -51,7 +50,7 @@ function run() {
         {
             "num": 2,
             "name": "Tuesday",
-            "portugueseName": "Terça-feira",    /*optional line*/
+            "portugueseName": "Terça-feira",    //optional line
             "workTime": [
             {
                 "start": "8:00",
@@ -66,7 +65,7 @@ function run() {
         {
             "num": 3,
             "name": "Wednesday",
-            "portugueseName": "Quarta-feira",   /*optional line*/
+            "portugueseName": "Quarta-feira",   //optional line
             "workTime": [
             {
                 "start": "8:00",
@@ -81,7 +80,7 @@ function run() {
         {
             "num": 4,
             "name": "Thursday",
-            "portugueseName": "Quinta-feira",   /*optional line*/
+            "portugueseName": "Quinta-feira",   //optional line
             "workTime": [
             {
                 "start": "8:00",
@@ -96,7 +95,7 @@ function run() {
         {
             "num": 5,
             "name": "Friday",
-            "portugueseName": "Sexta-feira",    /*optional line*/
+            "portugueseName": "Sexta-feira",    //optional line
             "workTime": [
             {
                 "start": "8:00",
@@ -111,7 +110,7 @@ function run() {
         {
             "num": 6,
             "name": "Saturday",
-            "portugueseName": "Sábado", /*optional line*/
+            "portugueseName": "Sábado", //optional line
             "workTime": [
             {
                 "start": "8:00",
