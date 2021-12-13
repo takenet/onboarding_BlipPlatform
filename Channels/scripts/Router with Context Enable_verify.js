@@ -6,16 +6,16 @@ the user / client is talking to his Smart Contact (Chatbot).
 /* [ ! ] Attention²: To configure this script, the following steps are required:
 (0) activate the "Use Router Context" functionality,
 (1) add an "Execute script" action,
-(2) add the "contact.identity" system variable as a input,
+(2) add the "tunnel.Originator" system variable as a input,
 (3) add the code in "Script" and
 (4) save the processing / return in the "channel" variable (or equivalent) */
 
 /* [ ! ] API Reference: https://docs.blip.ai/#channels */
 
-function run(contactIdentity) { 
+function run(tunnelOriginator) { 
     var channel;
     
-    contactDomain = contactIdentity.split("@")[1];
+    contactDomain = tunnelOriginator.split("@")[1];
 
     switch (contactDomain) {
         
