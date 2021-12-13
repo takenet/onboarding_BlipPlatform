@@ -13,10 +13,10 @@ suggested in the comments of this script below. /*
 
 /* [ ! ] API Reference: https://docs.blip.ai/#channels */
 
-function run(contactIdentity) { 
+function run(tunnelOriginator) { 
     var channel;
     
-    contactDomain = contactIdentity.split("@")[1];
+    contactDomain = tunnelOriginator.split("@")[1];
 
     switch (contactDomain) {
         
@@ -72,5 +72,4 @@ function run(contactIdentity) {
             channel = "Other";
             return channel;
     }
-}
 }
